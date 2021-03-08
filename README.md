@@ -17,7 +17,7 @@ Import maven project and run.
 Execute the next curl:
 
 ```sh
-curl --location --request POST 'localhost:1312/coupon/' \
+curl --location --request POST 'localhost:5000/coupon/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "item_ids": [
@@ -34,7 +34,7 @@ curl --location --request POST 'localhost:1312/coupon/' \
 For prod test execute:
 
 ```sh
-curl --location --request POST 'localhost:1312/coupon/' \
+curl --location --request POST 'localhost:5000/coupon/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "item_ids": [
