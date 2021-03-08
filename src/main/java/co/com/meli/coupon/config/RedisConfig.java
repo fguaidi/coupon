@@ -14,9 +14,9 @@ public class RedisConfig {
     public LettuceConnectionFactory redisConnectionFactory(){
     	
     	 RedisStandaloneConfiguration redisConf = new RedisStandaloneConfiguration();
-    	  redisConf.setHostName("localhost");
+    	  redisConf.setHostName("ec2-3-237-21-106.compute-1.amazonaws.com");
     	  redisConf.setPort(6379);
-    	  redisConf.setPassword("");
+    	  redisConf.setPassword("Prrmm4TDSSca");
     	  return new LettuceConnectionFactory(redisConf);
     }
 }
