@@ -10,7 +10,9 @@ Donwload the repo
 git clone origin https://github.com/fguaidi/coupon.git
 ```
 
-Import maven project an run. 
+Install [Redis](https://redis.io/topics/quickstart)
+
+Import maven project and run. 
 
 Execute the next curl:
 
