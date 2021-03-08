@@ -34,7 +34,7 @@ curl --location --request POST 'localhost:5000/coupon/' \
 For prod test execute:
 
 ```sh
-curl --location --request POST 'localhost:5000/coupon/' \
+curl --location --request POST 'http://couponservice-env.eba-29nrypvz.us-east-1.elasticbeanstalk.com/coupon/' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "item_ids": [
