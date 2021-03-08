@@ -27,8 +27,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: {coupon-service}
-        environment_name: {Couponservice-env}
+        application_name: coupon-service
+        environment_name: Couponservice-env
         version_label: ${{github.SHA}}
-        region: {us-east-1}
+        region: us-east-1
         deployment_package: target/coupon-0.0.1-SNAPSHOT.jar  
